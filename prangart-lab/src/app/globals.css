@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-prang-black: #0a0a0a;
+  --color-prang-dark: #121212;
+  --color-prang-gray: #1f1f1f;
+  --color-prang-gold: #d4af37;
+  --color-prang-gold-light: #f3e5ab;
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+body {
+  background-color: var(--color-prang-black);
+  color: #ffffff;
+}
